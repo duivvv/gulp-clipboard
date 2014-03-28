@@ -1,7 +1,7 @@
 # gulp-clipboard
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
 
-> clipboard plugin for [gulp](https://github.com/wearefractal/gulp)
+> A [gulp](https://github.com/wearefractal/gulp) plugin to copy the content of your file to the clipboard 
 
 ## Usage
 
