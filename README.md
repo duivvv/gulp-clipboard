@@ -19,21 +19,9 @@ Then, add it to your `gulpfile.js`:
 var clipboard = require("gulp-clipboard");
 
 gulp.src("./src/*.ext")
-	.pipe(clipboard({
-		msg: "Hello Gulp!"
-	}))
+	.pipe(clipboard())
 	.pipe(gulp.dest("./dist"));
 ```
-
-## API
-
-### clipboard(options)
-
-#### options.msg
-Type: `String`  
-Default: `Hello World`
-
-The message you wish to attach to file.
 
 
 ## License
