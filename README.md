@@ -18,7 +18,6 @@ var clipboard = require("gulp-clipboard");
 
 gulp.src("./src/*.ext")
 	.pipe(clipboard())
-	.pipe(gulp.dest("./dist"));
 ```
 
 
