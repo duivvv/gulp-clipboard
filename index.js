@@ -1,5 +1,5 @@
 var through = require("through2"),
-	copy_paste = require("copy-paste").silent()
+	copy_paste = require("copy-paste"),
 	gutil = require("gulp-util");
 
 module.exports = function (param) {
@@ -17,7 +17,7 @@ module.exports = function (param) {
 		}
 
 		if (file.isBuffer()) {
-			copy(String(file.contents));
+			copy_paste.copy(String(file.contents));
 			this.push(file);
 		}
 
